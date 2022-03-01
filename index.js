@@ -73,7 +73,7 @@ exports.helloWorld = (req, res) => {
     };
     axios
         .post(
-            "https://hooks.slack.com/services/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",
+            YOUR_SLACK_INCOMING_WEBHOOK_URL,
             data
         )
         .then(function (response) {
